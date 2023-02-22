@@ -1,1 +1,1 @@
-# rolador de dados feito com HTML, CSS e JS
+# aplicativo para rolagem de dados feito com HTML, CSS e JS
