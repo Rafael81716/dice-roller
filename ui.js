@@ -7,16 +7,13 @@ var dice = {
       return randomNumber;
     }
   }
-  
-  //Prints dice roll to the page
-  
+
   function printNumber(number) {
-    var placeholder = document.getElementById('placeholder');
+    var placeholder = document.getElementsByClassName('placeholder')[0];
     placeholder.innerHTML = number;
   }
   
-  var button = document.getElementById('button');
-  
+  var button = document.getElementsByClassName('button')[0];
   button.onclick = function() {
     var result = dice.roll();
     printNumber(result);
@@ -32,16 +29,13 @@ var dice = {
       return randomNumber;
     }
   }
-  
-  //Prints dice roll to the page
-  
+
   function printNumber1(number) {
-    var placeholder = document.getElementById('placeholder-1');
+    var placeholder = document.getElementsByClassName('placeholder')[1];
     placeholder.innerHTML = number;
   }
   
-  var button = document.getElementById('button-1');
-  
+  var button = document.getElementsByClassName('button')[1];
   button.onclick = function() {
     var result = dice1.roll();
     printNumber1(result);
@@ -57,15 +51,12 @@ var dice2 = {
   }
 }
 
-//Prints dice roll to the page
-
 function printNumber2(number) {
-  var placeholder = document.getElementById('placeholder-2');
+  var placeholder = document.getElementsByClassName('placeholder')[2];
   placeholder.innerHTML = number;
 }
 
-var button = document.getElementById('button-2');
-
+var button = document.getElementsByClassName('button')[2];
 button.onclick = function() {
   var result = dice2.roll();
   printNumber2(result);
@@ -80,15 +71,12 @@ var dice3 = {
   }
 }
 
-//Prints dice roll to the page
-
 function printNumber3(number) {
-  var placeholder = document.getElementById('placeholder-3');
+  var placeholder = document.getElementsByClassName('placeholder')[3];
   placeholder.innerHTML = number;
 }
 
-var button = document.getElementById('button-3');
-
+var button = document.getElementsByClassName('button')[3];
 button.onclick = function() {
   var result = dice3.roll();
   printNumber3(result);
@@ -103,15 +91,12 @@ var dice4 = {
   }
 }
 
-//Prints dice roll to the page
-
 function printNumber4(number) {
-  var placeholder = document.getElementById('placeholder-4');
+  var placeholder = document.getElementsByClassName('placeholder')[4];
   placeholder.innerHTML = number;
 }
 
-var button = document.getElementById('button-4');
-
+var button = document.getElementsByClassName('button')[4];
 button.onclick = function() {
   var result = dice4.roll();
   printNumber4(result);
@@ -126,15 +111,12 @@ var dice5 = {
   }
 }
 
-//Prints dice roll to the page
-
 function printNumber5(number) {
-  var placeholder = document.getElementById('placeholder-5');
+  var placeholder = document.getElementsByClassName('placeholder')[5];
   placeholder.innerHTML = number;
 }
 
-var button = document.getElementById('button-5');
-
+var button = document.getElementsByClassName('button')[5];
 button.onclick = function() {
   var result = dice5.roll();
   printNumber5(result);

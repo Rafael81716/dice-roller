@@ -5,10 +5,11 @@
     padding: 0;
   }
   body{
-    background-color: #f9f4e3;
+    background-color: #6e4f32;
+    color: white;
   }
   button {
-    background-color: #d4ddb1;
+    background-color: #3c2b3b;
     border-radius: 6px;
     border: none;
     padding: 10px;
@@ -16,8 +17,9 @@
     width: 150px;
     cursor: pointer;
     font-weight: bold;
+    color: white;
   }
-  #placeholder, #placeholder-1, #placeholder-2, #placeholder-3, #placeholder-4, #placeholder-5{
+  .placeholder{
     height: 50px;
     width: 50px;
     padding: 50px;
@@ -25,7 +27,7 @@
     border: 1px solid gray;
     border-radius: 10px;  
     font-size:60px;
-    background-color: white;
+    background-color: rgb(188,162,113);
     text-align: center;
   }
   .dices{
@@ -39,6 +41,15 @@
 
   h1{
     font-size: 50px;
-    background-color:#7a6448;
+    background-color: #3c2726;
     padding: 30px;
+  }
+  footer{
+    float: right;
+    font-size:13px;
+    margin-top: 23vh;
+    margin-right: 20px;
+  }
+  span{
+    font-size: 15px;
   }
