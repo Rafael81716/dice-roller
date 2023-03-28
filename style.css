@@ -20,6 +20,7 @@
     color: white;
   }
   .placeholder{
+    color: white;
     height: 50px;
     width: 50px;
     padding: 50px;
@@ -30,12 +31,14 @@
     background-color: rgb(188,162,113);
     text-align: center;
   }
-  .dices{
+  section{
     display: flex;
+    min-height: 100%;
+    position: relative;
     justify-content: center;
     margin-top: 50px;
   }
-  .dices div{
+  section div{
     margin: 0 25px;
   }
 
@@ -45,10 +48,7 @@
     padding: 30px;
   }
   footer{
-    float: right;
-    font-size:13px;
-    margin-top: 23vh;
-    margin-right: 20px;
+    margin-bottom: 20px;
   }
   span{
     font-size: 15px;
